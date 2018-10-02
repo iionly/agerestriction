@@ -1,9 +1,9 @@
 <?php
-?>
 
-<div>
-	<label>
-		<input type="checkbox" name="agevalid" value="true">
-		<?php echo elgg_echo('agerestriction:confirmation'); ?>
-	</label><br/>
-</div>
+echo elgg_view_field([
+	'#type' => 'checkbox',
+	'#label' => elgg_echo('agerestriction:confirmation'),
+	'name' => 'agevalid',
+	'value' => 1,
+	'required' => true,
+]);

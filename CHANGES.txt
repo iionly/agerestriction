@@ -1,6 +1,13 @@
 Changelog
 =========
 
+2.3.3
+-----
+
+- Requires Elgg 2.3 at minimum,
+- Code cleanup,
+- Usage of Elgg 2.3 API functions and HTML5 required attribute for register form agerestriction plugin input.
+
 1.9.2
 -----
 

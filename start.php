@@ -17,9 +17,12 @@ function agerestriction_init() {
 function agerestriction_register_hook() {
 	elgg_make_sticky_form('register');
 
-	if (get_input('agevalid',false) != 'true') {
-		register_error(elgg_echo('agerestriction:required'));
+	$agevalid = (int) get_input('agevalid', 0);
 
-		forward(REFERER);
+	if (!$agevalid) {
+		register_error(elgg_echo('agerestriction:required'));
+		return false;
 	}
+
+	return true;
 }
