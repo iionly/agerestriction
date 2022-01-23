@@ -1,8 +1,8 @@
-Agerestriction plugin for Elgg 3.3 and newer Elgg 3.X
+Agerestriction plugin for Elgg 4.0 and newer Elgg 4.X
 =====================================================
 
-Latest Version: 3.3.0  
-Released: 2020-07-12  
+Latest Version: 4.0.0  
+Released: 2022-01-23  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  
 Copyright: (c) iionly 2011

@@ -1,6 +1,10 @@
 <?php
 
 return [
+	'plugin' => [
+		'name' => 'Age Restriction',
+		'version' => '4.0.0',
+	],
 	'view_extensions' => [
 		'register/extend' => [
 			'agerestriction/register' => [
@@ -11,7 +15,7 @@ return [
 	'hooks' => [
 		'action:validate' => [
 			'register' => [
-				'\Agerestriction\Hooks::agerestriction_register_hook' => [],
+				'Agerestriction\Hooks::agerestriction_register_hook' => [],
 			],
 		],
 	],
